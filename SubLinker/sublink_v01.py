@@ -10,9 +10,8 @@ r.login("", "")
 regex = ur"(?:r/).[^\(\)\]\.\s\:]*"
 done = open('done.txt', 'a+')
 already_done = []
-
 	
-dontLink = ['r/all', 'r/nsfw', 'r/gonewild', 'r/nsfw_gif', 'r/nsfw_gifs', 'r/ass']
+dontLink = [' ']
 subList = [' ']
 
 while True:
